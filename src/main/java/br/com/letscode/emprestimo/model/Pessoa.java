@@ -23,6 +23,9 @@ public class Pessoa {
     @Column(name = "salario")
     private Float salario;
 
+    @Column(name= "endereco")
+    private String endereco;
+
     @ManyToMany(mappedBy = "pessoas", fetch = FetchType.EAGER)
     private List<Emprestimo> emprestimos;
 
