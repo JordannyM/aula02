@@ -1,13 +1,12 @@
 package br.com.letscode.emprestimo.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Getter @Setter
+@Getter @Setter @Builder @NoArgsConstructor @AllArgsConstructor
 @Entity(name = "emprestimo")
 public class Emprestimo {
     @Id

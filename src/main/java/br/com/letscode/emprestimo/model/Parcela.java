@@ -1,5 +1,6 @@
 package br.com.letscode.emprestimo.model;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 

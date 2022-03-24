@@ -1,13 +1,15 @@
 package br.com.letscode.emprestimo.model;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Getter
 @Setter
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity(name = "pessoa")
 public class Pessoa {
     @Id
